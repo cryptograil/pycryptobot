@@ -1,52 +1,24 @@
 [![Docker](https://github.com/whittlem/pycryptobot/actions/workflows/container.yml/badge.svg)](https://github.com/whittlem/pycryptobot/actions/workflows/container.yml/badge.svg) [![Tests](https://github.com/whittlem/pycryptobot/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/whittlem/pycryptobot/actions/workflows/unit-tests.yml/badge.svg)
 
-
-# Python Crypto Bot v6.3.0 (pycryptobot)
-
-## Join our chat on Telegram
-
-<https://t.me/joinchat/09hYKfelbRY2MDNk>
-
 ## Supporting The Project
 
-I get paid to write on Medium. Readers following me, applauding and commenting on my articles, all helps with my earnings. I provided this bot to all of you for free and actively developing it. One way you can support my efforts is to follow me on Medium and read my articles. The Medium subscription is $5 a month (roughly £3) so basically nothing in terms of the value you are getting from the bot. Your efforts here would be greatly appreciated!
+Cryptocurrencies have captured the attention and imagination of a new generation of investors across the globe. From Bitcoin to Dogecoin to the growing list of altcoins, there’s little question that the volatile and fast-moving crypto industry keeps participants, observers, and regulators on edge. More and more, though, mainstream companies are looking at cryptocurrencies and adjacent technologies as a way to tap into new markets—or to create them from scratch in new, virtual worlds. Crypto Grail features the latest news and daily trading updates from the digital currency markets and provides viewers a look at what’s ahead with high-profile interviews, explainers and unique stories from the ever-changing crypto industry.
 
-Follow me on Medium for updates!
+Follow our website for further updates!
 
-<https://whittle.medium.com>
+<https://crypto-grail.com>
 
-Python Crypto Bot (PyCryptoBot)
+Crypto Grail Telegram
 
-<https://medium.com/coinmonks/python-crypto-bot-pycryptobot-b54f4b3dbb75>
+<https://t.me/s/cryptograil1>
 
-What’s new in PyCryptoBot 2?
+Journal Profile
 
-<https://medium.com/coinmonks/whats-new-in-pycryptobot-2-a4bbb1b0c90e>
+<https://muckrack.com/alastair-roberts-1>
 
-PyCryptoBot with Telegram
+Weekly Newsletter
 
-<https://medium.com/coinmonks/pycryptobot-with-telegram-83eed5f230c2>
-
-PyCryptoBot Results and Config
-
-<https://medium.com/coinmonks/pycryptobot-results-and-config-57fb6625a6d9>
-
-Coinbase Pro Portfolio Tracker
-
-<https://medium.com/coinmonks/coinbase-pro-portfolio-tracker-a6e4a1c6b8f8>
-
-TradingView.com Charts ❤
-
-<https://levelup.gitconnected.com/tradingview-com-charts-36a49c9f77ea>
-
-## Optional Add-on
-
-Coinbase Pro Portfolio Tracker
-
-<https://github.com/whittlem/coinbaseprotracker>
-
-An all-in-one view of all your Coinbase Pro portfolios. Highly recommended
-if running multiple bots and keeping track of their progress.
+<https://www.getrevue.co/profile/crypto-grail/issues/crypto-grail-weekly-newsletter-issue-1-1224921>
 
 ## Prerequisites
 
@@ -724,19 +696,3 @@ Note: --statgroup only accepts a group of markets if the quote currency (in this
 
 If you want more detail than the simple summary, add the optional flag --statdetail. This will print a more detailed list of the transactions.
 --statdetail can work in conjunction with --statstartdate and --statgroup.
-
-## Upgrading the bots
-
-I push updates regularly and it's best to always be running the latest code. In each bot directory make sure you run this regularly.
-
-    git pull
-
-I've actually included this in the examples in how to start the bot that will do this for you automatically.
-
-## Fun quick non-live demo
-
-    python3 pycryptobot.py --market BTC-GBP --granularity 3600 --sim fast --verbose 0
-
-If you get stuck with anything email me or raise an issue in the repo and I'll help you sort it out. Raising an issue is probably better as the question and response may help others.
-
-Enjoy and happy trading! :)
